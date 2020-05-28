@@ -17,7 +17,7 @@ printf 'y\nn\nn\nn\nn\nn\nn\nn\n' | ./makenemo -n $CONFIG -m XC_ARCHER_INTEL -j 
 
 cp $GFILE/f_files/* $CDIR/$CONFIG/MY_SRC/.
 cp $WORK/MY_SRC/* $CDIR/$CONFIG/MY_SRC/.
-cp $GFILE/cpp_SANH.fcm $CONFIG/cpp_$CONFIG.fcm
+cp $GFILE/cpp_SANH.fcm $CDIR/$CONFIG/cpp_$CONFIG.fcm
 
 
 #make nemo
